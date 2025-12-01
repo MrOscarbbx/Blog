@@ -1,0 +1,72 @@
+html {
+    background-color: #ff3c3c;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+main{
+    margin: 0;
+}
+
+#titulo {
+    text-align: center;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Olas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trianguloUno {
+    border-left: 0vw solid transparent;
+    border-right: 20vw solid transparent;
+    border-bottom: 97vh solid #38c37c;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.trianguloDos {
+    border-left: 20vw solid transparent;
+    border-right: 0vw solid transparent;
+    border-bottom: 97vh solid #38c37c;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.Blanco {
+    border-bottom-color: #ffffff ;
+    z-index: -2;
+    border-left: 20px solid #ffffff;
+    border-right: 21vw solid transparent;
+    border-bottom: 100vh solid #ffffff;
+
+}
+.Blanco2 {
+    border-bottom-color: #ffffff ;
+    z-index: -2;
+    border-right: 20px solid #ffffff;
+    
+    border-left: 21vw solid transparent;
+    border-bottom: 100vh solid #ffffff;
+}
+
+.Logo {
+    position: relative;
+    width: 65vw;
+    top: -6vh;
+}
+.Mono {
+    position: absolute;
+    width: 5vw;
+    left: 48%;
+    bottom: 20px;
+}
