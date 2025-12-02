@@ -1,3 +1,6 @@
+
+/*--------------Configuracion Inicial eh inicio----------------*/
+
 html {
     background-color: #ff3c3c;
     width: 100%;
@@ -69,4 +72,71 @@ section {
     width: 5vw;
     left: 48%;
     bottom: 20px;
+}
+
+/*------------- Contendido adicional ----------------*/
+
+.contenedorAmarillo {
+    width: 70%;
+    height: 100vh;
+    background-image: url(img/Seccion.png);
+    background-size: 76vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 15vw;
+}
+.alto {
+    font-family: 'Higher', sans-serif;
+    font-size: 20vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+}
+.bebas {
+    font-family:'Bebas',sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+.vw60
+{
+    width: 60vw;
+}
+
+.centrar{
+    text-justify: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+.primero {
+    color: #ffffff;
+}
+
+/*   ----------------- Imagenes ----------------- */
+
+.fuckadobe {
+    width: 60vw;
+    height: 35vh;
+    background-image: url(img/FUCKADOBE.png);
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+/*------------- Fonts ----------------*/
+
+@font-face {
+    font-family: 'Higher';
+    src: url('fonts/Higher.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
