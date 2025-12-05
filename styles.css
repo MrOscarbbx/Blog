@@ -1,3 +1,28 @@
+/*-----------------Temporal---------------------------*/
+
+.gorro {
+    position: absolute;
+    left: 15%;
+    width: 25vw;
+    rotate: -70deg;
+
+}
+.arbol {
+    position: absolute;
+    z-index: 2;
+}
+
+.derecha {
+    right: -32vw;
+}
+.izquierda {
+    left: -32vw;
+}
+
+
+
+
+
 
 /*--------------Configuracion Inicial eh inicio----------------*/
 
