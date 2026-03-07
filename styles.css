@@ -82,6 +82,18 @@ section {
 
 /*------------- Contendido adicional ----------------*/
 
+.contenedorBlanco{
+    width: 80%;
+    height: 80vh;
+    background-color: #38c37c;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    box-shadow: 0px 0px 0px 20px white;
+    border-radius: 15px;
+    color: white;
+}
+
 .contenedorAmarillo {
     width: 70%;
     height: 100vh;
@@ -99,15 +111,7 @@ section {
     margin-top: 5vh;
     margin-bottom: 0vh;
 }
-.bebas {
-    font-family:'Bebas',sans-serif;
-    font-size: 2vw;
-    text-align: center;
-}
-.vw60
-{
-    width: 60vw;
-}
+
 
 .centrar{
     text-justify: center;
@@ -119,6 +123,65 @@ section {
     color: #ffffff;
 }
 
+/*   ----------------- Medidas ----------------- */
+
+.vw10
+{
+    width: 10vw;
+}
+.vw20
+{
+    width: 20vw;
+}
+.vw30
+{
+    width: 30vw;
+}
+.vw40
+{
+    width: 40vw;
+}
+.vw50
+{
+    width: 50vw;
+}
+.vw60
+{
+    width: 60vw;
+}
+.vw70
+{
+    width: 70vw;
+}
+.vw80
+{
+    width: 80vw;
+}
+.vw90
+{
+    width: 90vw;
+}
+.vw100
+{
+    width: 100vw;
+}
+
+.fuenteMediana {
+    font-size: 3vw !important;
+}
+
+.noMar {
+    margin: 0;
+}
+
+.separado {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+
+
 /*   ----------------- Imagenes ----------------- */
 
 .fuckadobe {
@@ -127,7 +190,7 @@ section {
     background-image: url(img/FUCKADOBE.png);
     background-size: contain;
     background-position: center;
-
+    
 }
 
 
@@ -145,4 +208,21 @@ section {
     src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+.bebas {
+    font-family:'Bebas',sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.monse {
+    font-family:'Monserrat',sans-serif;
+    font-size: 1.4vw;
+    text-align: center;
+    font-weight: 600;   
 }
